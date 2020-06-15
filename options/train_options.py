@@ -42,16 +42,10 @@ class TrainOptions(BaseOptions):
         # my opintion
         parser.add_argument('--clinical_folder', type=str, default='', help='floder of clinicalCT')
         parser.add_argument('--micro_folder', type=str, default='', help='folder of microCT')
-        parser.add_argument('--all_clinical_paths', type=str, default=['/homes/tzheng/CTdata/CTMicroNUrespsurg/cct/nulung050.nii.gz', 
-                                                                       '/homes/tzheng/CTdata/CTMicroNUrespsurg/cct/nulung030.nii.gz',
-                                                                       '/homes/tzheng/CTdata/CTMicroNUrespsurg/cct/nulung031.512.nii.gz', 
-                                                                       '/homes/tzheng/CTdata/CTMicroNUrespsurg/cct/nulung014-4.nii.gz', 
+        parser.add_argument('--all_clinical_paths', type=str, default=[
                                                                        '/homes/tzheng/CTdata/CTMicroNUrespsurg/cct/nulung015-5.nii.gz'], help='all medical paths')
         parser.add_argument('--all_micro_paths', type=str, default=['/homes/tzheng/CTdata/CTMicroNUrespsurg/nii/nulung050/nulung050_053_000.nii.gz',
-                                                                    '/homes/tzheng/CTdata/CTMicroNUrespsurg/converted/DICOM_nulung030_cb_004_zf_ringRem_med3.nii.gz',
-                                                                    '/homes/tzheng/CTdata/CTMicroNUrespsurg/converted/DICOM_nulung031_cb_003_zf_ringRem_med3.nii.gz', 
-                                                                    '/homes/tzheng/CTdata/CTMicroNUrespsurg/nii/nulung014/uCT/nulung014_027_000.nii.gz',
-                                                                    '/homes/tzheng/CTdata/CTMicroNUrespsurg/nii/nulung015/uCT/nulung015_034_001.nii.gz'], help='all clinical paths')
+                                                                    ], help='all clinical paths')
      
         parser.add_argument('--batch_num', type=int, default=2000, help='the batch num')
         parser.add_argument('--clinical_patch_size', type=int, default=32, help='patch size of clinicalCT')
