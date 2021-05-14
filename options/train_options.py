@@ -51,9 +51,6 @@ class TrainOptions(BaseOptions):
         parser.add_argument('--sampling_times', type=int, default=3, help='2^n times of upsampling from clinicalCT to microCT')
         parser.add_argument('--maskdatafolder', type=str, default='/homes/tzheng/CTdata/CTMicroNUrespsurg/Mask')
 
-        #是否使用downsample的假microCT画像与元clinicalCT图像进行比较
-        #parser.add_argument('--downsample_loss', type=bool, default=True, help='use downsample loss or not')
-        #是否使用upsample的假clinicalCT画像与原microCT图像进行比较
-        #parser.add_argument('--upsample_loss', type=bool, default=True, help='use upsample loss or not')
+       
         self.isTrain = True
         return parser
