@@ -42,10 +42,8 @@ class TrainOptions(BaseOptions):
         # my opintion
         parser.add_argument('--clinical_folder', type=str, default='', help='floder of clinicalCT')
         parser.add_argument('--micro_folder', type=str, default='', help='folder of microCT')
-        parser.add_argument('--all_clinical_paths', type=str, default=[
-                                                                       '/homes/tzheng/CTdata/CTMicroNUrespsurg/cct/nulung015-5.nii.gz'], help='all medical paths')
-        parser.add_argument('--all_micro_paths', type=str, default=['/homes/tzheng/CTdata/CTMicroNUrespsurg/nii/nulung050/nulung050_053_000.nii.gz',
-                                                                    ], help='all clinical paths')
+        parser.add_argument('--all_clinical_paths', type=str, default=[], help='all medical paths')
+        parser.add_argument('--all_micro_paths', type=str, default=[], help='all clinical paths')
      
         parser.add_argument('--batch_num', type=int, default=2000, help='the batch num')
         parser.add_argument('--clinical_patch_size', type=int, default=32, help='patch size of clinicalCT')
