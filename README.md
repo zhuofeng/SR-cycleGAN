@@ -13,8 +13,6 @@ This method is an unsupervised super-resolution approach based on the assumption
 2. Proposing a new network architecture
 3. Conducting experiments on a new dataset.
 
-![Registration (aligned clinical CT image and micro-CT image)](images/Network.png)
-
 ## Environment Setup
 
 - Important Packages:
