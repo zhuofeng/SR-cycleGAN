@@ -5,7 +5,6 @@ Super-resolution of clinical lung CT images using lung micro-CT images without s
 ## Paper Link and Program Path
 
 - [Paper Link](https://www.spiedigitallibrary.org/journals/journal-of-medical-imaging/volume-9/issue-02/024003/SR-CycleGAN--super-resolution-of-clinical-CT-to-micro/10.1117/1.JMI.9.2.024003.full)
-- Program Path: [\\taka2\tzheng\code\SR-CycleGAN](\\taka2\tzheng\code\SR-CycleGAN)
 
 ## Introduction
 
