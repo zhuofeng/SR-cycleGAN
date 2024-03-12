@@ -1,0 +1,1 @@
+python3 medicaltest.py --model medical_cycle_gan --name maps_medical_cyclegan --gpu_ids 0 --dataroot ./da
